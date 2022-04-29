@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
+
+.header-categories ul{
+    display: flex;
+    overflow-x: scroll;
+}
+
+.list-categories{
+    flex-direction: row;
+    margin: 0px 5px;
+}
+
+.list-categories a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 13px;
+}
